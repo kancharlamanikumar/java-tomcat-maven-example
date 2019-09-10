@@ -7,6 +7,12 @@
   <version>1.0-SNAPSHOT</version>
   <name>hello Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  <dependency>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-war-plugin</artifactId>
+  <version>3.2.3</version>
+  <type>maven-plugin</type>
+  </dependency>
   <distributionManagement>
     <repository>
         <id>central</id>
