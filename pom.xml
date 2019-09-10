@@ -13,16 +13,4 @@
   <version>3.2.3</version>
   <type>maven-plugin</type>
   </dependency>
-  <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>git-practice-releases</name>
-        <url>http://34.67.15.162:8081/artifactory/maven_deploy</url>
-    </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>git-practice-snapshots</name>
-        <url>http://34.67.15.162:8081/artifactory/maven_deploy</url>
-    </snapshotRepository>
-</distributionManagement>
-</project>
+  </project>
