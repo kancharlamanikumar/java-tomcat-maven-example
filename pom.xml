@@ -7,23 +7,5 @@
   <version>1.0-SNAPSHOT</version>
   <name>hello Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  <plugin>
-    <artifactId>maven-source-plugin</artifactId>
-    <version>2.4</version>
-    <executions>
-       <execution>
-           <id>attach-sources</id>
-           <goals>
-              <goal>war</goal>
-           </goals>
-       </execution>
-      </executions>
-      <dependencies>
-          <dependency>
-              <groupId>org.apache.maven.plugins</groupId>
-              <artifactId>maven-source-plugin</artifactId>
-              <version>2.4</version>
-          </dependency>
-     </dependencies>
  </plugin>
   </project>
